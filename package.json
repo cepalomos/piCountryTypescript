@@ -1,0 +1,46 @@
+{
+  "name": "ttd_express_typescript",
+  "version": "1.0.0",
+  "description": "Practica de ttd con typescript, express typeOrm",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cepalomos/piCountryTypescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "typeOrm",
+    "express"
+  ],
+  "author": "cepalomos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cepalomos/piCountryTypescript/issues"
+  },
+  "homepage": "https://github.com/cepalomos/piCountryTypescript#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.17"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.4",
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}
